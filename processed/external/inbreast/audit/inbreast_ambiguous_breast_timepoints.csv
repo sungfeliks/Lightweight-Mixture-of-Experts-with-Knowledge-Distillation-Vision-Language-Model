@@ -1,0 +1,3 @@
+breast_timepoint_id,patient_id,acquisition_date,laterality,image_count,view_set,birads_set,strict_mapped_label_count,strict_labels,strict_unmapped_images,broad_mapped_label_count,broad_labels,broad_unmapped_images,strict_binary_conflict,strict_partial_eligibility,broad_binary_conflict,broad_partial_eligibility
+0b7396cdccacca82_201001_R,0b7396cdccacca82,201001,R,2,"('CC', 'MLO')","('4a', '5')",1,"(1,)",1,1,"(1,)",0,False,True,False,False
+cc9e66c5b31baab8_200901_R,cc9e66c5b31baab8,200901,R,4,"('CC', 'FB', 'MLO')","('2', '4a')",1,"(0,)",2,2,"(0, 1)",0,False,True,True,False

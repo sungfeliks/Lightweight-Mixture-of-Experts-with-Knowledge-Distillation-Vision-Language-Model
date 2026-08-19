@@ -1,0 +1,3 @@
+sheet_name,row_count,column_count,columns,read_success,read_error
+Sheet1,412,17,"[""Patient ID"", ""Patient age"", ""Laterality"", ""View"", ""Acquisition date"", ""File Name"", ""ACR"", ""Bi-Rads"", ""Mass "", ""Micros"", ""Distortion"", ""Asymmetry"", ""Findings Notes (in Portuguese)"", ""Other Notes"", ""Lesion Annotation Status"", ""Pectoral Muscle Annotation"", ""Other Annotations""]",True,
+Sheet2,412,5,"[""Patient ID"", ""Patient age"", ""Acquisition date"", ""Bi-Rads"", ""DG""]",True,
