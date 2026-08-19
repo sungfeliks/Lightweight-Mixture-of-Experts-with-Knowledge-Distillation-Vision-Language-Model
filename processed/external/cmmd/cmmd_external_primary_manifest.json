@@ -1,0 +1,61 @@
+{
+    "dataset_name": "CMMD",
+    "source_format": "PNG",
+    "archive_path": "/content/drive/MyDrive/Research/datasets/cmmd.zip",
+    "metadata_path": "/content/external_datasets/cmmd/CMMD/description.csv",
+    "primary_cohort_name": "CMMD1 D1 expanded lesion-side cohort",
+    "primary_images": 2046,
+    "primary_patients": 1023,
+    "primary_benign_images": 944,
+    "primary_malignant_images": 1102,
+    "primary_benign_patients": 472,
+    "primary_malignant_patients": 551,
+    "direct_two_image_patients": 943,
+    "recovered_four_image_patients": 80,
+    "label_mapping": {
+        "Benign": 0,
+        "Malignant": 1
+    },
+    "slot_to_laterality_mapping": {
+        "1": "L",
+        "2": "L",
+        "3": "R",
+        "4": "R"
+    },
+    "left_mapping_agreement": 1.0,
+    "right_mapping_agreement": 0.9976851851851852,
+    "four_image_recovery_method": "Empirical mapping learned from D1 two-image cases. Lesion-side images were selected using the LeftRight metadata in description.csv.",
+    "view_mapping": "Unknown. Slots are retained only as source_image_slot and within-pair view_index. No CC or MLO labels were assigned.",
+    "d2_included": false,
+    "strict_cohort_saved": true,
+    "strict_cohort_purpose": "Sensitivity analysis of external validation using only direct two-image D1 cases.",
+    "random_seed": 42,
+    "slot_orientation_agreement": {
+        "1": 1.0,
+        "2": 0.9876543209876543,
+        "3": 1.0,
+        "4": 0.9876543209876543
+    },
+    "excluded_D1_duplicate_patients": [
+        "D1-0202",
+        "D1-0808",
+        "D1-1292"
+    ],
+    "all_cross_patient_duplicate_patients": [
+        "D1-0202",
+        "D1-0808",
+        "D1-1292",
+        "D2-0284"
+    ],
+    "exclusion_reason_counts_are_mutually_exclusive": false,
+    "final_duplicate_paths": 0,
+    "final_duplicate_pixels": 0,
+    "images_per_patient": 2,
+    "metadata_archive_member": "CMMD/description.csv",
+    "image_archive_directory": "CMMD/Cancer",
+    "primary_csv_path": "/content/drive/MyDrive/Research/processed/external/cmmd/cmmd_external_primary.csv",
+    "strict_csv_path": "/content/drive/MyDrive/Research/processed/external/cmmd/cmmd_external_strict_two_image.csv",
+    "expanded_excluded_patient_csv_path": "/content/drive/MyDrive/Research/processed/external/cmmd/cmmd_excluded_patients_expanded.csv",
+    "laterality_mapping_evidence_path": "/content/drive/MyDrive/Research/processed/external/cmmd/audit/cmmd_laterality_mapping_evidence.json",
+    "cohort_version": "CMMD_D1_expanded_lesion_side_v1"
+}
