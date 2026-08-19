@@ -1,0 +1,48 @@
+{
+  "training_seed": 42,
+  "model": "MobileNetV3-Small",
+  "training_stage": "baseline",
+  "best_epoch": 11,
+  "validation_samples": 621,
+  "validation_roc_auc": 0.7386550939931983,
+  "validation_pr_auc_trapezoidal": 0.6829623562686266,
+  "validation_average_precision": 0.6838920241493459,
+  "default_threshold": 0.5,
+  "youden_threshold": 0.319091796875,
+  "youden_j": 0.3798326691564605,
+  "metrics_threshold_05": {
+    "roc_auc": 0.7386550939931983,
+    "accuracy": 0.677938808373591,
+    "balanced_accuracy": 0.676328527613762,
+    "precision": 0.6505190311418685,
+    "sensitivity": 0.6550522648083623,
+    "specificity": 0.6976047904191617,
+    "f1": 0.6527777777777778,
+    "tn": 233,
+    "fp": 101,
+    "fn": 99,
+    "tp": 188
+  },
+  "metrics_youden_threshold": {
+    "roc_auc": 0.7386550939931983,
+    "accuracy": 0.6843800322061192,
+    "balanced_accuracy": 0.6899163345782302,
+    "precision": 0.6311239193083573,
+    "sensitivity": 0.7630662020905923,
+    "specificity": 0.6167664670658682,
+    "f1": 0.6908517350157729,
+    "tn": 206,
+    "fp": 128,
+    "fn": 68,
+    "tp": 219
+  },
+  "total_parameters": 927585,
+  "teacher_reference": {
+    "model": "Mammo-CLIP B2",
+    "selected_stage": "partial_finetune",
+    "selected_epoch": 6,
+    "validation_roc_auc": 0.7284107742702747,
+    "source_file": "/content/drive/MyDrive/Research/outputs/teacher_mammoclip_b2/final_teacher_info.json"
+  },
+  "roc_auc_difference_from_teacher": 0.010244319722923612
+}
