@@ -1,0 +1,6 @@
+pixel_sha256,duplicate_group_size,duplicate_patient_count,duplicate_label_count,duplicate_branch_count,patient_ids,labels,relative_paths,is_exact_duplicate_group
+62112f1b154098d0c4bd70069369eafa8af9399763ba6548e09cb12c6320828f,2,2,2,1,D1-0808 | D1-1292,Benign | Malignant,Cancer/D1-0808_1-1.png | Cancer/D1-1292_1-1.png,True
+8a80da9464e48971e6020e4d99e3099a38e646f1b7e0f8163e70b95340bbe694,2,2,1,2,D1-0202 | D2-0284,Malignant,Cancer/D1-0202_1-1.png | Cancer/D2-0284_1-1.png,True
+9f65f5c72f3eaa051ea4e3ad71da67305bc2784c3d4eb536a096081aea38e81d,2,2,1,2,D1-0202 | D2-0284,Malignant,Cancer/D1-0202_1-4.png | Cancer/D2-0284_1-4.png,True
+af3af46d3010f31902553643be2c383d791b02739a8cc991e63f991e2efefcf5,2,2,1,2,D1-0202 | D2-0284,Malignant,Cancer/D1-0202_1-2.png | Cancer/D2-0284_1-2.png,True
+dc515f8c0e4c1e88500361561e7a15891f5d3bc3b0760c51f95c58f820405d28,2,2,1,2,D1-0202 | D2-0284,Malignant,Cancer/D1-0202_1-3.png | Cancer/D2-0284_1-3.png,True

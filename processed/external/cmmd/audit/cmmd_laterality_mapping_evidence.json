@@ -1,0 +1,28 @@
+{
+    "two_image_d1_patients": 945,
+    "two_image_consistent_orientation_patients": 939,
+    "left_laterality_agreement": 1.0,
+    "right_laterality_agreement": 0.9976851851851852,
+    "laterality_to_orientation_mapping": {
+        "L": "foreground_touches_left_edge",
+        "R": "foreground_touches_right_edge"
+    },
+    "slot_to_laterality_mapping": {
+        "1": "L",
+        "2": "L",
+        "3": "R",
+        "4": "R"
+    },
+    "slot_orientation_agreement": {
+        "1": 1.0,
+        "2": 0.9876543209876543,
+        "3": 1.0,
+        "4": 0.9876543209876543
+    },
+    "recovered_four_image_patients": 80,
+    "excluded_recovered_patient_ids": [
+        "D1-0202"
+    ],
+    "view_labels_assigned": false,
+    "interpretation": "Slots 1\u20132 represent the left breast and slots 3\u20134 represent the right breast. The two lesion-side images were selected using description.csv LeftRight metadata. No CC or MLO labels were assigned."
+}

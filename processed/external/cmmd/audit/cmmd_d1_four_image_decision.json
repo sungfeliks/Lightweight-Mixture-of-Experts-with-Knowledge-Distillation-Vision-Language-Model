@@ -1,0 +1,6 @@
+{
+    "patient_count": 81,
+    "image_count": 324,
+    "included_in_primary_cohort": false,
+    "reason": "Per-image anatomical laterality and view are not encoded in description.csv or the PNG filename. Orientation proxies are retained only for visual audit."
+}
