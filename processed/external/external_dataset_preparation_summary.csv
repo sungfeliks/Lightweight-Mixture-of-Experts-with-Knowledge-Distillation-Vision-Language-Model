@@ -1,0 +1,5 @@
+dataset,cohort,images,patients,label_0_images,label_1_images,duplicate_paths,duplicate_pixels
+CMMD,Expanded lesion-side primary,2046,1023,944,1102,0,0
+CMMD,Strict two-image,1886,943,806,1080,0,0
+INbreast,Strict breast-time-point consistent,341,100,285,56,0,0
+INbreast,Broad breast-time-point consistent,383,103,285,98,0,0
